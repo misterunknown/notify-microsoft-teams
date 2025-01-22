@@ -9,7 +9,7 @@ const {
       html_url: placeholder,
       name: placeholder
     },
-    compare,
+    compare_url,
     sender = {
       login: placeholder,
       url: placeholder
@@ -261,7 +261,7 @@ class MSTeams {
         {
           type: 'Action.OpenUrl',
           title: 'Compare',
-          url: compare
+          url: compare_url
         }
       ]
     }
